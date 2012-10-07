@@ -1,0 +1,17 @@
+#!/bin/sh
+#usage: 
+# fiddle -n   Normalized + jquery
+# fiddle      Totally blank.
+
+FILEPATH=~/Sites/fiddle
+LOCALHOSTPATH="http://localhost/~katehudson/fiddle"
+
+#Open the fiddle
+cd $FILEPATH
+#Open with your editor of choice
+subl .
+
+elif [ $1 == "-n" ]; then
+  open -a "/Applications/Google Chrome.app" $LOCALHOSTPATH/normal
+else
+  open -a "/Applications/Google Chrome.app" $LOCALHOSTPATH/blank
