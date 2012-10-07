@@ -1,4 +1,4 @@
-### Fiddle
+# Fiddle
 
 This is what I use to create quick code examples/tests.
 Uploads to http://jsfiddle.net/.
